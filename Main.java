@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 //for 26
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +17,6 @@ public class Main {
             x1 *= -1 * x * x;
             rez += x1 / k;
         }
-        System.out.println(rez);
+        System.out.println("Результат:" + rez);
     }
 }
